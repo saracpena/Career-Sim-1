@@ -1,11 +1,8 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bahnschrift', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
     background-color: #281111;
 }
 
@@ -38,16 +35,32 @@ nav a:hover {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
 }
+h1 {
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 img {
-    grid-row: 1;
-    grid-column: 1;
+    grid-row: 2;
+    grid-column: 2;
     contain: fit;
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     border-radius: 10px;
 }
