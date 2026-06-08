@@ -45,19 +45,37 @@ nav a:hover {
     padding: .5rem;
 }
 
-div {
-    display: block;
-}
-
 main {
-    border-bottom: solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 section {
-    border-top: .25rem solid white;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
-img {
+section h2 {
+    background-color: #000;
+    color: white;
+    padding: .5rem;
+    margin-bottom: .75rem;
+}
+
+section img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 1rem auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+section img {
     object-fit: contain;
-    width: 50%;
+    width: 100%;
 }
