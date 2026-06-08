@@ -20,6 +20,12 @@ header {
     align-items: center;
 }
 
+nav {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+    
 nav a {
     background-color: transparent;
     color: #fff;
